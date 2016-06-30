@@ -56,7 +56,7 @@ CookieManager.clearAll((err, res) => {
   console.log(res);
 });
 
-// clear a specific cookie by its name
+// clear a specific cookie by its name (IOS ONLY)
 CookieManager.clearByName('cookie_name', (err, res) => {
   console.log('cookie cleared!');
   console.log(err);
