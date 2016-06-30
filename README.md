@@ -56,6 +56,13 @@ CookieManager.clearAll((err, res) => {
   console.log(res);
 });
 
+// clear a specific cookie by its name
+CookieManager.clearByName('cookie_name', (err, res) => {
+  console.log('cookie cleared!');
+  console.log(err);
+  console.log(res);
+});
+
 ```
 
 ### Roadmap
