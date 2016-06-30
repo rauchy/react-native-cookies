@@ -22,7 +22,7 @@ var functions = [
     'setFromResponse',
     'get',
     'getAll',
-    'clear',
+    'clearAll',
     'clearByName'
 ];
 
